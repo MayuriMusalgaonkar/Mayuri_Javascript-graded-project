@@ -1,0 +1,84 @@
+body {
+    background-color: whitesmoke;
+}
+
+#container {
+    width: 600px;
+    margin: 5% auto 0 auto;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 2px 2px 5px gray;
+}
+
+#container h1 {
+    font-size: 3em;
+    margin: 5px 5px 8px auto;
+    color: rgb(153, 0, 255);
+}
+
+#form {
+    padding: 5px 0 5px 0;
+    margin-bottom: 5px;
+}
+
+#form input {
+    display: inline-block;
+    width: 480px;
+    height: 40px;
+    font-size: large;
+    padding: 0% 10px 0 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px gray;
+}
+
+#form button {
+    display: inline-block;
+    color: white;
+    font-size: 1.1em;
+    background-color: rgb(153, 0, 255);;
+    width: 70px;
+    height: 42px;
+    margin: 0px auto 0px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+#list {
+    margin-top: 20px;
+}
+
+.todo {
+    padding: 5px;
+    margin: 5px 0 20px 0;
+    /*border: 1px solid lightgrey;
+    border-radius: 5px;*/
+}
+
+.desc {
+    display: inline-block;
+    width: 440px;
+    font-size: 1.4em;
+}
+
+.edit, .del {
+    padding: 10px 10px;
+    margin: 0 5px 0 4px;
+    font-size: large;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.edit {
+    background-color: green;
+}
+
+.del {
+    background-color: red;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
